@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Abel&family=League+Spartan:wght@100&family=Montserrat&family=Ubuntu:ital,wght@1,300&display=swap');
+       .jumbotron{
+        font-family: 'League Spartan', sans-serif;
+        background-image:url("foodbg3.jpg");
+         background-size:cover;
+
+        background-repeat:no-repeat;
+        color:black;
+
+        
+
+       }
+      
+       *{
+        font-family: 'League Spartan', sans-serif;
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+         font-weight: bold; 
+     
+     }
+     h1{
+        font-size: 50px;
+        line-height: 64px;
+        color: #222;
+     }
+     h2{
+        font-size: 46px;
+        line-height: 54px;
+        color: #222;
+        font-weight: 100px;
+     }
+     h4{
+        font-size: 20px;
+        
+        color: #222;
+     }
+    
+     p{
+        font-size: 16px;
+        color: #465b52;
+        
+     }
+     .section-m1{
+      padding: 40px 0px;
+     }
+     
+     .section-p1{
+     
+     padding: 40px 80px;
+     }
+  
+       .logo{
+        width: 15%;
+        border: #0000;
+        border-radius: 50px;
+      
+      }
+     
+      
+      #navbar{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+      
+      
+      }
+      #navbar li{
+        list-style-type: none;
+        padding: 0 20px;
+        position: relative;
+      }
+      #navbar li a{
+        text-decoration: none;
+        font-size:20px;
+        font-weight: 600;
+        color: #1a1a1a;
+        transition: 0.3s ease;
+      
+      }
+      #navbar li a:hover,
+      #navbar li a.active {
+        color:#088178;
+      
+      }
+      #navbar li a.active::after,
+      #navbar li a:hover::after{
+        content:"";
+        width:30%;
+        height:2px;
+        background-color: #088178;
+        position: absolute;
+        bottom: -4px;
+        left:20px;
+      }
+      #header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding:10px 80px;
+        background: #dddddd;
+        /* background: 	#e8e8e8; */
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+        z-index: 999;
+        position: sticky;
+        top: 0;
+        left: 0%;
+     
+      }
+    
+      .button{
+       
+        width:300px;
+        height:37px;
+       
+        
+        cursor: pointer;
+      
+        
+      }
+      
+      
+  </style>
+  <body><section id="header">
+
+      <a href="#"><img src="logo.png" alt="logo" class="logo"></a>
+      <div> 
+        <ul  id="navbar" >
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a class="" href="recognize.html">Upload</a></li>
+          <li><a class="" href="results.html">Results</a></li>
+          </a></li></ul>  
+      </div>
+    </section>
+    <div class="jumbotron text-center" style="margin-bottom: 0 font-family: 'Times New Roman', Times, serif;">
+      <h1>
+        <b>Food Image Recognition<b><br /><b>And<b><br /><b>Nutrition Analysis<b>
+      </h1>
+    </div>
+    <div class="container">
+      <div class="row">
+        
+          <h2>Introduction</h2>
+          <p>
+            Each year, approximately 6,78,000 deaths are caused in the world due to unhealthy diet. A typical diet is
+            too high in calories, fat, sugars, sodium, etc. Hence, people have
+            became more proactive when it comes to health matters. Services like
+            eating habit recorder and calorie/nutrition calculator have became
+            extremely popular. They can make users aware of problems like
+            obesity, cancer, diabetes, heart-disease, etc. that can be caused by
+            unhealthy diets. Most of these services require the users to
+            manually select a food item from a hierarchical menu which is a time
+            consuming process and not so user friendly.
+          </p>
+          <p>
+            An user-interactive system that takes food images as an input,
+            recognizes the food automatically and gives the nutritional-facts as
+            an output will save a lot of time.
+          </p>
+          <h3>Click below to start!</h3>
+          <div class="button">
+
+          <ul class="nav nav-pills nav-stackednav nav-pills nav-stacked">
+            <li class="active">
+              <a href="/recognize"
+                >Food Image Recognition & Nutrition Analysis System</a
+              >
+            </li>
+          </ul>
+        </div>
+          <hr class="hidden-sm hidden-md hidden-lg" />
+        
+        <div class="col-sm-6">
+          
+        </div>
+      </div>
+    </div>
+       
+  </body>
+
+</html>
